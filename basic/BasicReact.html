@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    <script type="text/babel" src="./Corona.js"></script>
+    <script type="text/babel" src="./Name.js"></script>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+                // let corona = "Cornorna Virus PPE";
+                // let masks = "N95 Masks";
+                // let isMarkup = false;
+
+                // let name = "Meryem";
+                // let city = "Houston"
+                // isMarkup = () => {
+                //     return true
+                // }
+
+               let markup = <div className="row">
+                <Corona name= "Meryem" city ="houston" price={5.99}/>
+                <Corona name= "Aydin" city ="houston" price={6.99}/>
+                <Corona name= "Melike" city ="houston" price={7.99}/>
+                <Corona name= "Ayse" city ="houston" price={8.99}/>
+                </div>      
+
+                    
+
+        // console.log(markup);
+        
+        // ReactDOM.render(<Name />,document.getElementById('root'))
+        ReactDOM.render(markup,document.getElementById('root'))
+    </script>
+</body>
+</html>
