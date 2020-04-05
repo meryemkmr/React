@@ -1,5 +1,35 @@
-.box{
+
+
+.keypad{
     width: 75px;
     height: 75px;
-    background-color: antiquewhite;
+    background-color: rgb(129, 128, 126);
+    margin: 5px;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.specialKey{
+    background-color: orange;
+    font-weight: bold;
+}
+.zero{
+    margin: 5px;
+    width: 160px;
+}
+.window{
+    width: 330px;
+    height: 75px;
+    color: #fff;
+    background-color: rgb(129, 128, 126);
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
 }
