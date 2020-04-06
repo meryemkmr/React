@@ -1,0 +1,62 @@
+body {
+    background-color: #f4f4f4;
+}
+.App {
+    background-color:#5bbdca;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+.todo-form input {
+    background-color: rgb(27,112,137);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+} .todo-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.todo-form button {
+    background-color: rgb(202,156,25);
+    border-radius: 5px;
+    border:0;
+    cursor: pointer;
+    font-weight: bolder;
+    height: 50px;
+    width: 80px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.input{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    grid-row: 50px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    border-radius: 5px;
+    border:0;
+    
+    
+}
+.title{
+    color: #ffff;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+ul li {
+    color: #fff;
+    font-size: 20px;
+}
